@@ -29,5 +29,6 @@ var a=_REQUIRE_('./a.js');
 - rem支持解析引用的js文件中的\_REQUIRE\_(path)
 - rem不会处理循环引用的问题，出现死循环别怪我没有提醒你
 - 引用的js文件需要同源或支持CORS
+- \_REQUIRE\_(path)的path只能为""或''或``
 
 
